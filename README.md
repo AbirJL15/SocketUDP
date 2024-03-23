@@ -26,5 +26,35 @@ This module implements a simple group chat application where multiple clients ca
 4. Enter a username for each client when prompted.
 5. Start chatting!
 
+## 2. RMI module:  Task List Management
+
+This module demonstrates task list management using Java Remote Method Invocation (RMI). It allows users to add tasks to a list, remove existing tasks from the list, and retrieve the complete list of tasks.
+
+### Overview
+
+The module consists of two main components:
+1. **RemoteTaskList Interface**: Defines the remote methods that can be invoked by clients. These methods include adding a task, removing a task, and retrieving all tasks.
+2. **RemoteTaskListImpl Class**: Implements the RemoteTaskList interface and provides the actual functionality for task list management. It maintains an internal list of tasks and allows clients to interact with it remotely.
+
+### Features
+- **Add Task**: Clients can add tasks to the task list.
+- **Remove Task**: Clients can remove existing tasks from the task list.
+- **Get All Tasks**: Clients can retrieve the complete list of tasks.
+
+### Files
+- **RemoteTaskList.java**: Interface defining remote methods for task list management.
+- **RemoteTaskListImpl.java**: Implementation class providing functionality for task list management using RMI.
+- **TaskListClient.java**: Client application that interacts with the task list server to perform various operations.
+
+### How to Run
+1. Compile all Java files using `javac *.java`.
+2. Start the RMI registry by running `rmiregistry` command in a separate terminal or command prompt window.
+3. Start the Task List Server by running `java RemoteTaskListImpl`.
+4. Run the Task List Client by running `java TaskListClient`.
+5. Follow the instructions in the client application to perform task list operations.
+
+
+
+
 
 ### 2. RMI Module: Gestion de Task List
