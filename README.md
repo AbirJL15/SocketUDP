@@ -27,4 +27,4 @@ This module implements a simple group chat application where multiple clients ca
 5. Start chatting!
 
 
-### 2. EMI Module: Gestion de Task List
+### 2. RMI Module: Gestion de Task List
