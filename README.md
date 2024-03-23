@@ -2,7 +2,7 @@
 
 This project demonstrates communication using different technologies: gRPC, RMI, and Sockets. It consists of three modules.
 
-### Socket Module: Group Chat Application
+### 1. Socket Module: Group Chat Application
 
 ## Overview
 This module implements a simple group chat application where multiple clients can connect to a server and exchange messages in a chat room setting.
@@ -25,3 +25,6 @@ This module implements a simple group chat application where multiple clients ca
 3. Run multiple instances of the client using `java Client`.
 4. Enter a username for each client when prompted.
 5. Start chatting!
+
+
+### 2. EMI Module: Gestion de Task List
