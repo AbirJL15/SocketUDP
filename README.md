@@ -1,6 +1,4 @@
-##Distributed Communication project
-This project demonstrates communication using different technologies: gRPC, RMI, and Sockets.
-It consists of three modules.
+
 
 
 # Sockets Module :  Group Chat Application
